@@ -1,0 +1,57 @@
+@import url(header.css);
+
+body {
+
+    background-image: url("../images/pattern.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #FFF1EE;  background-color: #338c00;*/
+}
+
+form {
+    margin-top: 100px;
+}
+
+.form-container {
+    text-align: center;
+    padding: 10px;
+    /*margin: 50px;*/
+}
+
+.form-container input[type="search"] {
+    width: 40%;
+    height: 7vh;
+    background-color: #d9c68d;  
+    font-size: larger;
+    font-weight: 400;
+    color: rgb(35, 39, 38);
+    border-radius: 4px;
+}
+
+form button {
+    width: 7%;
+    height: 7%;
+    background-color: #979C84;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+tbody tr:hover {
+    background-color: lightgrey;
+}
+
+tr:nth-child(even) {
+    background-color: Lightgreen;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(255, 248, 237);
+}
+
+.select-ctrl{
+    text-align: center;
+    border-radius: 4px;
+    width:24%;
+     
+}
